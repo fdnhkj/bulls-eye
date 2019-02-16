@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF54A9E92218573200ACF015 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54A9E82218573200ACF015 /* AboutViewController.swift */; };
+		BF54A9EB2218599400ACF015 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54A9EA2218599400ACF015 /* AuthorViewController.swift */; };
 		BF9703302214E6B600326B34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97032F2214E6B600326B34 /* AppDelegate.swift */; };
 		BF9703322214E6B600326B34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9703312214E6B600326B34 /* ViewController.swift */; };
 		BF9703352214E6B600326B34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9703332214E6B600326B34 /* Main.storyboard */; };
@@ -15,9 +17,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF54A9E82218573200ACF015 /* AboutViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
+		BF54A9EA2218599400ACF015 /* AuthorViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		BF97032C2214E6B600326B34 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF97032F2214E6B600326B34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF9703312214E6B600326B34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF97032F2214E6B600326B34 /* AppDelegate.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; tabWidth = 2; };
+		BF9703312214E6B600326B34 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		BF9703342214E6B600326B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF9703362214E6B700326B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF9703392214E6B700326B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,9 +58,11 @@
 		BF97032E2214E6B600326B34 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				BF54A9EA2218599400ACF015 /* AuthorViewController.swift */,
 				BF97032F2214E6B600326B34 /* AppDelegate.swift */,
 				BF9703312214E6B600326B34 /* ViewController.swift */,
 				BF9703332214E6B600326B34 /* Main.storyboard */,
+				BF54A9E82218573200ACF015 /* AboutViewController.swift */,
 				BF9703362214E6B700326B34 /* Assets.xcassets */,
 				BF9703382214E6B700326B34 /* LaunchScreen.storyboard */,
 				BF97033B2214E6B700326B34 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF54A9E92218573200ACF015 /* AboutViewController.swift in Sources */,
 				BF9703322214E6B600326B34 /* ViewController.swift in Sources */,
 				BF9703302214E6B600326B34 /* AppDelegate.swift in Sources */,
+				BF54A9EB2218599400ACF015 /* AuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HS565C35Y;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HS565C35Y;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
